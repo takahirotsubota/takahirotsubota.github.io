@@ -285,11 +285,10 @@ section h2
 }
 #contact ul li
 {
-    font-size: 2.8em;
+    font-size: 3.0rem;
     display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
     margin-right: 20px;
     text-align: center;
     vertical-align: top;
@@ -299,11 +298,12 @@ section h2
     margin-right: 0;
 }
 #contact ul .github,
-#contact ul .skype
+#contact ul .twitter
 {
-    font-size: 3.2em;
+    font-size: 2.6em;
 }
-#contact ul .github i
+#contact ul .github i,
+#contact ul .twitter i
 {
     margin-left: 2px;
 }
@@ -312,6 +312,7 @@ section h2
     display: block;
     width: 50px;
     height: 50px;
+    line-height: 50px;
     color: #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius:50%;
